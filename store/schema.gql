@@ -1,0 +1,7 @@
+type Query {
+    getPage(pageId: String!): Page!
+},
+type Page {
+    title: String!
+    content: String!
+}
